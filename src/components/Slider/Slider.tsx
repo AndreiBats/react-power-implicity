@@ -1,4 +1,4 @@
-import "./index.scss";
+import "./slider.scss";
 
 export const Slider = () => {
   return (
