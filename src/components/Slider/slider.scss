@@ -28,10 +28,9 @@
     font-size: 18px;
     line-height: 21px;
     padding: 16px 96px;
-    background: transparent;
     background: linear-gradient(124.53deg, #fc3f5f 0%, #7d61ff 100.32%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
     border: 3px solid transparent;
     border-image: linear-gradient(124.53deg, #fc3f5f 0%, #7d61ff 100.32%);
     border-image-slice: 1;
