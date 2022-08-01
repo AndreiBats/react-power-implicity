@@ -1,0 +1,66 @@
+.slider {
+  &__container {
+    padding: 0 430px 229px;
+  }
+
+  &__slide {
+    text-align: center;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 83px;
+
+    color: #f2f4f7;
+    margin-top: 184px;
+  }
+
+  &__description {
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #f2f4f7;
+    margin-top: 32px;
+  }
+
+  &__button {
+    margin-top: 80px;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 16px 96px;
+    background: transparent;
+    background: linear-gradient(124.53deg, #fc3f5f 0%, #7d61ff 100.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 3px solid transparent;
+    border-image: linear-gradient(124.53deg, #fc3f5f 0%, #7d61ff 100.32%);
+    border-image-slice: 1;
+  }
+
+  &__dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 0 0;
+  }
+
+  &__dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin: 16px;
+    background: transparent;
+    border: 3px solid rgba(196, 196, 196, 0.16);
+  }
+
+  &__dot--active {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin: 16px;
+    background: transparent;
+    border: 3px solid #ffffff;
+  }
+}
