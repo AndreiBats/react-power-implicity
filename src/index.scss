@@ -1,0 +1,27 @@
+$breakpoints: (
+  mobile: 568px,
+  tablet: 768px,
+);
+
+@mixin tablet {
+  @media (max-width: #{map-get($breakpoints, tablet)}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{map-get($breakpoints, mobile)}) {
+    @content;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(124.53deg, #fc3f5f 0%, #7d61ff 100.32%);
+  background-repeat: no-repeat;
+}
